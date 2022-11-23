@@ -30,6 +30,7 @@ textarea{
 }
 #outputText{
     pointer-events: none;
+    font-weight: bold;
 }
 
 #btn-translate{
