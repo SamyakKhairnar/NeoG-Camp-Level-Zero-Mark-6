@@ -25,6 +25,8 @@ textarea{
     width: 50%;
     height: 8rem;
     font-size: 1rem;
+    text-align: center;
+    border-radius: 1rem;
 }
 #outputText{
     pointer-events: none;
