@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Kaushan+Script&display=swap');
+body{
+    content:"";
+    background: url(/images/monkeysurprise.png) left no-repeat,url(/images/monkeysmile.png) right no-repeat,url("/images/back-img.png") repeat;
+    background-size: 20rem , 25rem , 10rem;
+    /* background-repeat: no-repeat, repeat; */
+    /* opacity: 0.5; */
+    background-color: hsla(120, 60%, 70%, 0.3);
+    text-align: center;
+}
+h1,h3{
+    font-family: 'Kaushan Script', cursive;
+    color: #27272a;
+    text-shadow: 5px 5px 6px rgba(120, 53, 15, 1);
+    margin: auto;
+    width: 18rem;
+    background-color: #fef9c3;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding-bottom: 6px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+textarea{
+    display: inline-block;
+    width: 50%;
+    height: 8rem;
+    font-size: 1rem;
+}
+#outputText{
+    pointer-events: none;
+}
+
+#btn-translate{
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    width: 10rem;
+    font-weight: bold;
+    padding-bottom: 5px;
+    background-color: #a3e635;
+    cursor: pointer;
+    border-radius: 1rem;
+    box-shadow: 0 9px #999;
+}
+#btn-translate:hover{
+    background-color: #bef264;
+}
+#btn-translate:active{
+    background-color: #a3e635;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+h3{
+    font-family: 'Charm', cursive;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    width: 20rem;
+}
+
+.list-item-inline {
+    display: inline;
+    padding-inline-start: 2rem;
+}
+.footer {
+    width: auto;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: #fef9c3;
+    text-align: center;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer-header {
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: large;
+}
+.fb{
+    margin-inline-start: -6rem;
+}
+.link .fa-brands{
+    text-align: center;
+    color: #000000;
+    font-size: 1.2rem;
+    transition: .5s;
+}
+.link .fa-brands:hover {
+    color: #ffffff;
+}
