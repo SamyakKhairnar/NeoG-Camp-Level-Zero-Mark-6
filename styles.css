@@ -103,3 +103,27 @@ h3{
 .link .fa-brands:hover {
     color: #ffffff;
 }
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 90%;
+        height: 90%;
+    }
+    .footer-header{
+        font-size: smaller;   
+    }
+    .link .fa-brands{
+        font-size: large;
+    }
+    .inputText, .outputText{
+        width: 90%;
+    }
+    .footer{
+        margin: auto;
+        padding: auto;
+        bottom: 0;
+    }
+    .footer-header{
+        padding: none;
+    }
+}
